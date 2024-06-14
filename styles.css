@@ -4,7 +4,7 @@ body {
     padding: 0;
     display: flex;
     background-color: #000; /* Fondo negro */
-    color: #E6E6FA; /* Morado */
+    color: #E6E6FA; /* Morado claro */
 }
 
 .sidebar {
@@ -31,7 +31,7 @@ body {
 }
 
 .sidebar ul li a {
-    color: #E6E6FA; /* Morado */
+    color: #E6E6FA; /* Morado claro */
     text-decoration: none;
     display: block;
     padding: 10px;
@@ -53,12 +53,12 @@ body {
     width: calc(100% - 220px);
 }
 
-.content h1 {
+.content h1, .content h2 {
     color: #00FFFF; /* Turquesa */
     text-align: center;
 }
 
-.content img {
+.content img, .content iframe {
     display: block;
     margin: 0 auto;
     max-width: 100%;
@@ -67,7 +67,7 @@ body {
 
 .content p {
     text-align: center;
-    color: #8A2BE2; /* Morado */
+    color: #E6E6FA; /* Morado claro */
 }
 
 .grid {
@@ -89,7 +89,7 @@ body {
 }
 
 .grid .item p {
-    color: #8A2BE2; /* Morado */
+    color: #E6E6FA; /* Morado claro */
 }
 
 .gallery {
@@ -111,7 +111,7 @@ form {
 form label {
     display: block;
     margin: 10px 0 5px;
-    color: #8A2BE2; /* Morado */
+    color: #E6E6FA; /* Morado claro */
 }
 
 form input, form textarea {
@@ -133,3 +133,4 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #00CED1; /* Azul turquesa */
 }
+
