@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #000; /* Fondo negro */
+    color: #FFF;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #282828; /* Fondo gris oscuro para el menú */
+    color: #FFF;
+    padding: 15px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: #00FFFF; /* Turquesa */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #121212;
+    min-height: 100vh;
+    width: calc(100% - 220px);
+}
+
+.content h1 {
+    color: #00FFFF; /* Turquesa */
+    text-align: center;
+}
+
+.content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.content p {
+    text-align: center;
+    color: #FFF;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid .item {
+    width: 23%;
+    margin: 1%;
+    text-align: center;
+}
+
+.grid .item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 23%;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    width: auto;
+    background-color: #00FFFF; /* Turquesa */
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #00CED1; /* Azul turquesa */
+}
