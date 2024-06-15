@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería - Deporte y Formación</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+        .gallery-item {
+            text-align: center;
+        }
+        .gallery-item img, .gallery-item iframe {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+    </style>
 </head>
 <body>
     <div class="sidebar">
@@ -22,12 +39,65 @@
     <div class="content">
         <h1>Galería</h1>
         <div class="gallery">
-            <img src="galeria1.jpg" alt="Imagen 1">
-            <img src="galeria2.jpg" alt="Imagen 2">
-            <img src="galeria3.jpg" alt="Imagen 3">
-            <img src="galeria4.jpg" alt="Imagen 4">
-            <!-- Agregar más imágenes según sea necesario -->
+            <div class="gallery-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Lionel_Messi_20180626.jpg" alt="Lionel Messi">
+            </div>
+            <div class="gallery-item">
+                <img src="https://cdn.britannica.com/70/149370-050-F2F4BEE5/Serena-Williams-US-Open-2004.jpg" alt="Serena Williams">
+            </div>
+            <div class="gallery-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Usain_Bolt_smiling_Berlin_2009.JPG/200px-Usain_Bolt_smiling_Berlin_2009.JPG" alt="Usain Bolt">
+            </div>
+            <div class="gallery-item">
+                <img src="https://1968.com.ve/wp-content/uploads/2016/03/Michael-Phelps-SI-cover-shoot-SI523_TK1_00212.jpg" alt="Michael Phelps">
+            </div>
+            <div class="gallery-item">
+                <img src="https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2023-03/nba-plain--99ce3ef9-b8d1-424e-8689-3d06774a6bdd.png?itok=ufTnbSnI" alt="LeBron James">
+            </div>
+            <div class="gallery-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg/640px-Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg" alt="Cristiano Ronaldo">
+            </div>
+            <div class="gallery-item">
+                <img src="https://img.olympics.com/images/image/private/t_1-1_300/f_auto/v1627219484/primary/cts0yqdhtfm9yowtrv1j" alt="Simone Biles">
+            </div>
+            <div class="gallery-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Katie_Ledecky_%28USA%29_Rio_2016.jpg/800px-Katie_Ledecky_%28USA%29_Rio_2016.jpg" alt="Katie Ledecky">
+            </div>
+            <div class="gallery-item">
+                <img src="https://sportshub.cbsistatic.com/i/r/2024/06/13/ae70baad-f3f7-4937-94c4-e8bb93e8d3ca/thumbnail/1200x675/21ef597762929d8fe4c0dfff0f7f2d08/getty-tiger-woods-us-open-thursday-2.jpg" alt="Tiger Woods">
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi8utL-6L1V_Ld-hk878hzyQ7FOa4pzSKEzw&s" alt="Rafael Nadal">
+            </div>
+            <div class="gallery-item">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/A65-qpO2jn4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="gallery-item">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/FMgJhyI1drs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="gallery-item">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/ObM9oI6tfIo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="gallery-item">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/2mgsxAPbiLU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="gallery-item">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/m5VoYPsRVJo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="gallery-item">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/uBgmF4UgYck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="gallery-item">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/QNj6UM_JdJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="gallery-item">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/EN6JuGQU-GA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="gallery-item">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/mh5ztE9r0ZA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 </body>
 </html>
+
