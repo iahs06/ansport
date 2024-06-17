@@ -19,6 +19,7 @@
             <li><a href="comentarios.html">Comentarios y Contacto</a></li>
         </ul>
     </div>
+
     <div class="content">
         <h1>Comentarios</h1>
         <form>
@@ -30,6 +31,7 @@
             <textarea id="comment" name="comment"></textarea><br>
             <input type="submit" value="Enviar">
         </form>
+
         <h1>Contacto</h1>
         <p>Puedes contactarnos a través del siguiente formulario o enviando un correo a contacto@deporteyformacion.com</p>
         <form>
@@ -42,17 +44,19 @@
             <input type="submit" value="Enviar">
         </form>
     </div>
-    </section>
-     <footer>
-        <p>Contador de visitas: <span id="visitas">30</span></p>
+
+    <footer>
+        <p>Contador de visitas: <span id="visitas">0</span></p>
     </footer>
+
     <script>
-        // Simulación de contador de visitas
-        document.getElementById('visitas').textContent = Math.floor(Math.() * 26);
+        // Contador de visitas (usando localStorage)
+        let visitas = localStorage.getItem('visitas') || 0;
+        visitas++;
+        localStorage.setItem('visitas', visitas);
+        document.getElementById('visitas').textContent = visitas;
     </script>
 </body>
 </html>
 
-</body>
-</html>
 
