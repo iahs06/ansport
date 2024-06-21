@@ -46,12 +46,12 @@
     </div>
 
     <footer>
-        <p>Contador de visitas: <span id="visitas">0</span></p>
+        <p>Contador de visitas: <span id="visitas">1</span></p>
     </footer>
 
     <script>
         // Contador de visitas (usando localStorage)
-        let visitas = localStorage.getItem('visitas') || 0;
+        let visitas = localStorage.getItem('visitas') || 1;
         visitas++;
         localStorage.setItem('visitas', visitas);
         document.getElementById('visitas').textContent = visitas;
